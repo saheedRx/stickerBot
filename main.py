@@ -120,7 +120,10 @@ async def rounded_rectangle(rectangle, xy, corner_radius, fill=None, outline=Non
 @some_sticker_bot.on_message(filters.command("start"))
 async def start_handler(c: Client, m: Message):
     await m.reply_text(
-        "Hi, I'm a simple Messenger Style sticker Maker. /nJust Send a Word to Test./n/n/n@Tamil_Kingdom",
+        "Hi, I'm a simple Messenger Style sticker Maker.
+        Just Send a Word to Test.
+        
+        @Tamil_Kingdom",
         disable_web_page_preview=True
     )
 
